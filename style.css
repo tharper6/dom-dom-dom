@@ -1,0 +1,22 @@
+/* div should flow horizontal and wrap */
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* div should be black square */
+.boxes .innerDiv {
+  width: 5em;
+  height: 5em;
+  border: 1px solid black;
+  background-color: black;
+  margin: 1em;
+  color: white;
+  text-align: center;
+  line-height: 5em;
+}
+
+.innerDiv {
+  color: white;
+}
